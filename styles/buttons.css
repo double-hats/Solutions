@@ -1,0 +1,256 @@
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+  flex: 1;
+  margin: 0 50px
+}
+.nav-bar a button{
+  margin-bottom: 5px;
+  color: #fff;
+  border: none;
+  background-color: #333;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.15s, background-color 0.15s;
+}
+.nav-bar a button:hover{
+  box-sizing: border-box;
+  border: solid 1px #333;
+  color:#333;
+  background-color: #fff;
+}
+.sub-button{
+  background-color: rgb(216, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.15s;
+}
+.sub-button:hover{
+  opacity: 0.8;
+}
+.sub-button:active{
+  opacity: 0.5;
+}
+.join-button{
+  background-color: white;
+  color: rgb(6, 95, 212);
+  border-color: rgb(6, 95, 212);
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 9px 16px 9px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.join-button:hover{
+  background-color: rgb(6, 95, 212);
+  color: white;
+}
+.join-button:active{
+  opacity: 0.7;
+}
+.tweet-button{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 18.5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.2s;  
+}
+.tweet-button:hover{
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.uber{
+  color: white;
+  background-color: black;
+  padding: 10px 16px 10px 16px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.uber:hover{
+  opacity: 0.85;
+}
+.amazon{
+  background-color: rgb(255, 230, 0);
+  border: none;
+  padding: 10px 45px 10px 45px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.amazon:hover{
+  background-color: rgb(255, 217, 0);
+}
+.github{
+  background-color: rgba(0, 141, 0, 0.87);
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+.github:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.get-started{
+  background-color: rgb(107, 83, 243);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px 10px 16px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.get-started:hover{
+  background-color: rgb(90, 80, 255);
+}
+.download{
+  background-color: white;
+  color: rgb(97, 97, 97);
+  border-style: solid;
+  border-color: rgb(97, 97, 97);
+  border-width: 1px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.14s;
+}
+.download:hover{
+  background-color: rgb(97, 97, 97);
+  color: white;
+}
+.linkedin{
+  background-color: rgb(36, 113, 255);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 17px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.linkedin:hover{
+  background-color: rgb(16, 99, 255);
+}
+.save{
+  background-color: white;
+  color: rgb(37, 113, 255);
+  border: solid;
+  border-color: rgb(36, 113, 255);
+  padding: 10px 16px 10px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  border-width: 1px;
+  cursor: pointer;
+  transition: border-width 0.15s, background-color 0.15s;
+}
+.save:hover{
+  border-width: 2px;
+  background-color: rgba(37, 113, 255, 0.15);
+}
+.back-to-amazon{
+  color: rgb(0, 113, 133);
+  transition: color 0.15s;
+}
+.back-to-amazon:hover{
+  color: orange;
+}
+.shoe{
+  font-size: 24px;
+  font-weight: bold;
+}
+.price{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+.add-to-cart{
+  background-color: rgb(255, 217, 0);
+  padding: 8px 16px 8px 16px;
+  border: none;
+  border-radius: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.add-to-cart:hover{
+  background-color: rgb(255, 208, 0);
+}
+.add-to-cart:active{
+  opacity: 0.6;
+}
+.buy-now{
+  background-color: rgb(255, 166, 0);
+  padding: 8px 16px 8px 16px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.buy-now:hover{
+  background-color: rgb(255, 153, 0);
+}
+.buy-now:active{
+  opacity: 0.6;
+}
+.free{
+  margin-bottom: 0;
+}
+.pag-button{
+  padding: 10px 5px 10px;
+  cursor: pointer;
+}
+.page{
+  margin: 5px;
+}
+.stretch{
+  border: none;
+  background-color: green;
+  padding: 5px 10px;
+  color: white;
+  transition: padding 0.5s;
+  margin-bottom: 10px;
+}
+.stretch:hover{
+  padding: 20px 30px;
+}
+.shadow{
+  border: none;
+  background-color: green;
+  padding: 5px 10px;
+  color: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: margin 0.15s, box-shadow 0.15s;
+  margin-bottom: 10px;
+}
+.shadow:active{
+  margin: 3px 0 0 3px;
+  box-shadow: none;
+}
+.one{
+  border: none;
+  background-color: green;
+  padding: 5px 10px;
+  color: white;
+  margin: 5px;
+  transition: padding 0.15s, margin 0.15s;
+}
+.one:hover{
+  padding: 5px 15px;
+  margin: 0;
+}
